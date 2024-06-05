@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boston Environmental Assessment Ruth Zota</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="./assets/CF-logo-horizontal.png" alt="Logo" class="logo" />
+    </header>
+
+    <nav>
+      <div class="hamburger">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <ul>
+        <li><a href="#">PAGE LINK</a></li>
+        <li><a href="#">PAGE LINK</a></li>
+        <li><a href="#">PAGE LINK</a></li>
+        <li><a href="#">PAGE LINK</a></li>
+        <li><a href="#">PAGE LINK</a></li>
+        <li><a href="#">PAGE LINK</a></li>
+        <li><a href="#">PAGE LINK</a></li>
+        <li><a href="#" class="nav-button" id="nav-button">BUTTON TEXT</a></li>
+      </ul>
+    </nav>
+
+    <section class="section-one">
+      <h1>Headline. Vitae justo eget magna fermentum</h1>
+      <p>
+        Mauris augue neque gravida in fermenturn et sollicitudin. Massa vitae
+        tortor condimentum lacinia
+      </p>
+    </section>
+
+    <section class="image-section">
+      <div class="content">
+        <h1>Lorem Ipsum dolor sit amet</h1>
+        <div class="columns">
+          <div class="column">
+            <h2>$4.259</h2>
+            <p>200+ GALLONS</p>
+          </div>
+          <div class="column">
+            <h2>$4.359</h2>
+            <p>150-199 GALLONS</p>
+          </div>
+          <div class="column">
+            <h2>$4.459</h2>
+            <p>100-149 GALLONS</p>
+          </div>
+        </div>
+        <button class="green-btn">BUTTON TEXT</button>
+        <p class="main-section-p">NEX ULLAMCORPER SIT AMET RISUS NULLAM EGET FELIS EGET.</p>
+      </div>
+    </section>
+
+    <script>
+      function toggleMenu() {
+        var nav = document.querySelector("nav ul");
+        nav.classList.toggle("open");
+      }
+
+
+    </script>
+  </body>
+</html>
